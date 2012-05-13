@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 ```
 
-## Toolkit
+## Resources
 
 [jQuery Plugin Toolkit](https://github.com/niclasgelin/jquery-plugin-toolkit)<br>
 [Online YUI Compressor](http://www.refresh-sf.com/yui/)
