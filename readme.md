@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 ## Resources
 
-[jQuery Plugin Toolkit](https://github.com/niclasgelin/jquery-plugin-toolkit)<br>
+[jQuery Plugin Boilerplate](https://github.com/niclasgelin/jquery-plugin-boilerplate)<br>
 [Online YUI Compressor](http://www.refresh-sf.com/yui/)
 
 ## Unlicense
