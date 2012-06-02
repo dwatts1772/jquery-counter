@@ -1,4 +1,4 @@
-/*! Counter jQuery plugin v1.0.0 - https://github.com/niclasgelin/jquery-counter */
+/*! Counter jQuery plugin v1.0.1 - https://github.com/niclasgelin/jquery-counter */
 /*
  * Minimal Twitter-like character counter and input limiter.
  *
@@ -30,18 +30,21 @@
 
       inputListener: function() {
         $(object.settings.inputElement).keyup(function() {
-          methods.inputLimiter(this);
+          methods.inputLimiter();
           methods.outputPrinter();
         });
       },
 
       inputCounter: function() {
-        return $(object.settings.inputElement).attr('value').length;
+        return $(object.settings.inputElement).val().length;
       },
 
-      inputLimiter: function(event) {
+      inputLimiter: function() {
+        var input = $(object.settings.inputElement);
+        var limit = input.val().substring(0, object.settings.characterLimit);
+
         if (methods.inputCounter() > object.settings.characterLimit) {
-          event.value = event.value.substring(0, object.settings.characterLimit);
+          input.val(limit);
         }
       },
 
@@ -50,7 +53,7 @@
       },
 
       outputPrinter: function() {
-        $(object.settings.outputElement).text(methods.outputCounter());
+        $(object.settings.outputElement).html(methods.outputCounter());
       }
 
     };
