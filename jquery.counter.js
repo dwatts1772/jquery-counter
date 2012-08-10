@@ -2,7 +2,6 @@
 /*
  * Minimal Twitter-like character counter and input limiter.
  *
- * 2012 Niclas Gelin
  * This is free and unencumbered software released into the public domain.
  * For more information, please refer to: http://unlicense.org
  */

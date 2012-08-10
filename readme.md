@@ -37,9 +37,7 @@ $(document).ready(function() {
 [jQuery Plugin Boilerplate](https://github.com/niclasgelin/jquery-plugin-boilerplate)<br>
 [Online YUI Compressor](http://www.refresh-sf.com/yui/)
 
-## Unlicense
-
-2012 Niclas Gelin
+## License
 
 This is free and unencumbered software released into the public domain.<br>
 For more information, please refer to: http://unlicense.org
